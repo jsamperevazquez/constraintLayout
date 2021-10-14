@@ -6,6 +6,7 @@ import android.service.autofill.Validators.not
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,6 +15,9 @@ class MainActivity : AppCompatActivity() {
         val textViewStart = findViewById<TextView>(R.id.textView)
         findViewById<Button>(R.id.button).setOnClickListener {
             textViewStart.visibility = View.VISIBLE
+        }
+        findViewById<Button>(R.id.button2).setOnClickListener{
+            exitProcess(1)
         }
     }
 }
