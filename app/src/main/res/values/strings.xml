@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">constraintLayout</string>
     <string name="texto">Hola desde PMPD</string>
+    <string name="texto2">Bienvenido a aplicación saludo</string>
     <string name="boton1">Mostrar</string>
+    <string name="imagen"/>
 </resources>
