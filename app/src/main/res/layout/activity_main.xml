@@ -40,13 +40,19 @@
         android:id="@+id/textView3"
         android:layout_width="347dp"
         android:layout_height="89dp"
-        android:layout_marginStart="176dp"
-        android:layout_marginEnd="177dp"
         android:text="@string/texto2"
         android:textAlignment="center"
         android:textSize="34sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="32dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
